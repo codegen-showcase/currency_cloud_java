@@ -1,0 +1,29 @@
+
+package com.currencycloud.sdk.model;
+
+import com.fasterxml.jackson.annotation.JsonValue;
+
+
+
+
+/**
+ * Type of payment - priority(Swift) or regular(local).
+ */
+public enum PaymentsQuotePaymentFeePaymentTypeEnum {
+    PRIORITY("priority"),
+    REGULAR("regular");
+
+    private final String value;
+
+    PaymentsQuotePaymentFeePaymentTypeEnum(String value) {
+        this.value = value;
+    }
+
+    @JsonValue
+    @java.lang.Override
+    public String toString() {
+        return this.value;
+    }
+}
+
+

@@ -1,0 +1,154 @@
+
+package com.currencycloud.sdk.resources.reports.params;
+
+import java.util.Objects;
+import java.util.Optional;
+
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
+import com.fasterxml.jackson.annotation.JsonInclude;
+import com.fasterxml.jackson.annotation.JsonProperty;
+import com.fasterxml.jackson.annotation.JsonSetter;
+import com.fasterxml.jackson.databind.annotation.JsonDeserialize;
+
+
+/**
+ * GetReportRequestsRequest
+ */
+@JsonDeserialize(builder = GetReportRequestsRequest.Builder.class)
+public final class GetReportRequestsRequest {
+    /**
+     * ID of the report.
+     */
+    private final String id;
+
+    /**
+     * A contact UUID for the sub-account you're acting on behalf of.
+     */
+    private final Optional<String> onBehalfOf;
+
+
+    private GetReportRequestsRequest(Builder builder) {
+        this.id = builder.id;
+        this.onBehalfOf = builder.onBehalfOf;
+    }
+
+    /**
+     * Retrieves value for `id`
+     * ID of the report.
+     */
+    @JsonProperty("id")
+    public String getId() {
+        return id;
+    }
+    /**
+     * Retrieves value for `onBehalfOf`
+     * A contact UUID for the sub-account you're acting on behalf of.
+     */
+    @JsonProperty("on_behalf_of")
+    @JsonInclude(JsonInclude.Include.NON_ABSENT)
+    public Optional<String> getOnBehalfOf() {
+        return onBehalfOf;
+    }
+
+    @Override
+    public boolean equals(Object other) {
+        if (this == other) { return true; }
+
+        return other instanceof GetReportRequestsRequest && equalTo((GetReportRequestsRequest) other);
+    }
+
+    private boolean equalTo(GetReportRequestsRequest other) {
+        return
+            id.equals(other.id) &&
+
+            onBehalfOf.equals(other.onBehalfOf)
+            ;
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(
+                   this.id,
+                   this.onBehalfOf
+               );
+    }
+
+    @Override
+    public String toString() {
+        return "GetReportRequestsRequest{" +
+               "id=" + id + ", " +
+               "onBehalfOf=" + onBehalfOf +
+               '}';
+    }
+
+    public static Builder builder() {
+        return new Builder();
+    }
+
+    @JsonIgnoreProperties(ignoreUnknown = true)
+    public static final class Builder {
+        /**
+         * ID of the report.
+         */
+        private String id = null;
+
+        /**
+         * A contact UUID for the sub-account you're acting on behalf of.
+         */
+        private Optional<String> onBehalfOf = Optional.empty();
+
+
+        private Builder() {}
+
+        public Builder from(GetReportRequestsRequest other) {
+            id(other.getId());
+            onBehalfOf(other.getOnBehalfOf());
+            return this;
+        }
+
+        /**
+         * Sets value for `id`
+         * ID of the report.
+         */
+        @JsonSetter("id")
+        public Builder id(String id) {
+            if (id == null) {
+                throw new IllegalArgumentException("id cannot be null");
+            }
+
+            this.id = id;
+            return this;
+        }
+        /**
+         * Sets value for `onBehalfOf`
+         * A contact UUID for the sub-account you're acting on behalf of.
+         */
+        @JsonSetter("on_behalf_of")
+        public Builder onBehalfOf(Optional<String> onBehalfOf) {
+            this.onBehalfOf = onBehalfOf;
+            return this;
+        }
+
+        /**
+         * Sets value for `onBehalfOf`
+         * A contact UUID for the sub-account you're acting on behalf of.
+         */
+        public Builder onBehalfOf(String onBehalfOf) {
+            return this.onBehalfOf(Optional.ofNullable(onBehalfOf));
+        }
+
+
+
+        public GetReportRequestsRequest build() {
+            if (id == null) {
+                throw new IllegalStateException("id is required");
+            }
+
+            return new GetReportRequestsRequest(this);
+        }
+    }
+
+}
+
+
+

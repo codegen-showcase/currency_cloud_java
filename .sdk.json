@@ -1,0 +1,1649 @@
+{
+  "id": "e3d7f806-037d-4edc-a56f-17c24e576d3d",
+  "tracked_paths": [
+    {
+      "editable": true,
+      "path": ".github/workflows/run-tests.yml"
+    },
+    {
+      "editable": false,
+      "path": ".gitignore"
+    },
+    {
+      "editable": true,
+      "path": "build.gradle"
+    },
+    {
+      "editable": false,
+      "path": "src/main/java/com/currencycloud/sdk/Client.java"
+    },
+    {
+      "editable": false,
+      "path": "src/main/java/com/currencycloud/sdk/ClientBuilder.java"
+    },
+    {
+      "editable": false,
+      "path": "src/main/java/com/currencycloud/sdk/Environment.java"
+    },
+    {
+      "editable": false,
+      "path": "src/main/java/com/currencycloud/sdk/OAuth2ClientCredentials.java"
+    },
+    {
+      "editable": false,
+      "path": "src/main/java/com/currencycloud/sdk/OAuth2Password.java"
+    },
+    {
+      "editable": true,
+      "path": "src/main/java/com/currencycloud/sdk/README.md"
+    },
+    {
+      "editable": false,
+      "path": "src/main/java/com/currencycloud/sdk/ServerGroup.java"
+    },
+    {
+      "editable": false,
+      "path": "src/main/java/com/currencycloud/sdk/core/ApiException.java"
+    },
+    {
+      "editable": false,
+      "path": "src/main/java/com/currencycloud/sdk/core/AuthBasic.java"
+    },
+    {
+      "editable": false,
+      "path": "src/main/java/com/currencycloud/sdk/core/AuthBearer.java"
+    },
+    {
+      "editable": false,
+      "path": "src/main/java/com/currencycloud/sdk/core/AuthKey.java"
+    },
+    {
+      "editable": false,
+      "path": "src/main/java/com/currencycloud/sdk/core/AuthKeyLocation.java"
+    },
+    {
+      "editable": false,
+      "path": "src/main/java/com/currencycloud/sdk/core/AuthProvider.java"
+    },
+    {
+      "editable": false,
+      "path": "src/main/java/com/currencycloud/sdk/core/BaseClient.java"
+    },
+    {
+      "editable": false,
+      "path": "src/main/java/com/currencycloud/sdk/core/BinaryResponse.java"
+    },
+    {
+      "editable": false,
+      "path": "src/main/java/com/currencycloud/sdk/core/DateTimeDeserializer.java"
+    },
+    {
+      "editable": false,
+      "path": "src/main/java/com/currencycloud/sdk/core/HttpRequestBuilder.java"
+    },
+    {
+      "editable": false,
+      "path": "src/main/java/com/currencycloud/sdk/core/OAuth2.java"
+    },
+    {
+      "editable": false,
+      "path": "src/main/java/com/currencycloud/sdk/core/OAuth2Form.java"
+    },
+    {
+      "editable": false,
+      "path": "src/main/java/com/currencycloud/sdk/core/ObjectMappers.java"
+    },
+    {
+      "editable": false,
+      "path": "src/main/java/com/currencycloud/sdk/core/Patch.java"
+    },
+    {
+      "editable": false,
+      "path": "src/main/java/com/currencycloud/sdk/core/PatchDeserializer.java"
+    },
+    {
+      "editable": false,
+      "path": "src/main/java/com/currencycloud/sdk/core/PatchSerializer.java"
+    },
+    {
+      "editable": false,
+      "path": "src/main/java/com/currencycloud/sdk/core/RequestOptions.java"
+    },
+    {
+      "editable": false,
+      "path": "src/main/java/com/currencycloud/sdk/core/ResponseHandler.java"
+    },
+    {
+      "editable": false,
+      "path": "src/main/java/com/currencycloud/sdk/core/RetryInterceptor.java"
+    },
+    {
+      "editable": false,
+      "path": "src/main/java/com/currencycloud/sdk/core/Suppliers.java"
+    },
+    {
+      "editable": false,
+      "path": "src/main/java/com/currencycloud/sdk/model/AcceptTermsResponse.java"
+    },
+    {
+      "editable": false,
+      "path": "src/main/java/com/currencycloud/sdk/model/Account.java"
+    },
+    {
+      "editable": false,
+      "path": "src/main/java/com/currencycloud/sdk/model/AccountBankAccountVerifiedEnum.java"
+    },
+    {
+      "editable": false,
+      "path": "src/main/java/com/currencycloud/sdk/model/AccountIdentificationTypeEnum.java"
+    },
+    {
+      "editable": false,
+      "path": "src/main/java/com/currencycloud/sdk/model/AccountPaymentChargesSetting.java"
+    },
+    {
+      "editable": false,
+      "path": "src/main/java/com/currencycloud/sdk/model/AccountPaymentChargesSettingChargeTypeEnum.java"
+    },
+    {
+      "editable": false,
+      "path": "src/main/java/com/currencycloud/sdk/model/AccountSettlementTypeEnum.java"
+    },
+    {
+      "editable": false,
+      "path": "src/main/java/com/currencycloud/sdk/model/AccountStatusEnum.java"
+    },
+    {
+      "editable": false,
+      "path": "src/main/java/com/currencycloud/sdk/model/AccountsCreateBody.java"
+    },
+    {
+      "editable": false,
+      "path": "src/main/java/com/currencycloud/sdk/model/AccountsCreateBodyIdentificationTypeEnum.java"
+    },
+    {
+      "editable": false,
+      "path": "src/main/java/com/currencycloud/sdk/model/AccountsCreateBodyLegalEntityTypeEnum.java"
+    },
+    {
+      "editable": false,
+      "path": "src/main/java/com/currencycloud/sdk/model/AccountsCreateBodyStatusEnum.java"
+    },
+    {
+      "editable": false,
+      "path": "src/main/java/com/currencycloud/sdk/model/AccountsFindBody.java"
+    },
+    {
+      "editable": false,
+      "path": "src/main/java/com/currencycloud/sdk/model/AccountsFindBodyBankAccountVerifiedEnum.java"
+    },
+    {
+      "editable": false,
+      "path": "src/main/java/com/currencycloud/sdk/model/AccountsFindBodyOrderAscDescEnum.java"
+    },
+    {
+      "editable": false,
+      "path": "src/main/java/com/currencycloud/sdk/model/AccountsFindBodyStatusEnum.java"
+    },
+    {
+      "editable": false,
+      "path": "src/main/java/com/currencycloud/sdk/model/AccountsFindResponse.java"
+    },
+    {
+      "editable": false,
+      "path": "src/main/java/com/currencycloud/sdk/model/AccountsPaymentChargesSettingsCreateBody.java"
+    },
+    {
+      "editable": false,
+      "path": "src/main/java/com/currencycloud/sdk/model/AccountsPaymentChargesSettingsListResponse.java"
+    },
+    {
+      "editable": false,
+      "path": "src/main/java/com/currencycloud/sdk/model/AccountsUpdateBody.java"
+    },
+    {
+      "editable": false,
+      "path": "src/main/java/com/currencycloud/sdk/model/AccountsUpdateBodyIdentificationTypeEnum.java"
+    },
+    {
+      "editable": false,
+      "path": "src/main/java/com/currencycloud/sdk/model/AccountsUpdateBodyLegalEntityTypeEnum.java"
+    },
+    {
+      "editable": false,
+      "path": "src/main/java/com/currencycloud/sdk/model/AccountsUpdateBodyStatusEnum.java"
+    },
+    {
+      "editable": false,
+      "path": "src/main/java/com/currencycloud/sdk/model/AuthLoginBody.java"
+    },
+    {
+      "editable": false,
+      "path": "src/main/java/com/currencycloud/sdk/model/AuthenticationToken.java"
+    },
+    {
+      "editable": false,
+      "path": "src/main/java/com/currencycloud/sdk/model/AvailableCurrencies.java"
+    },
+    {
+      "editable": false,
+      "path": "src/main/java/com/currencycloud/sdk/model/Balance.java"
+    },
+    {
+      "editable": false,
+      "path": "src/main/java/com/currencycloud/sdk/model/BalancesFindOrderAscDescEnum.java"
+    },
+    {
+      "editable": false,
+      "path": "src/main/java/com/currencycloud/sdk/model/BalancesFindOrderEnum.java"
+    },
+    {
+      "editable": false,
+      "path": "src/main/java/com/currencycloud/sdk/model/BalancesFindResponse.java"
+    },
+    {
+      "editable": false,
+      "path": "src/main/java/com/currencycloud/sdk/model/BalancesFindScopeEnum.java"
+    },
+    {
+      "editable": false,
+      "path": "src/main/java/com/currencycloud/sdk/model/BalancesTopUpMarginBody.java"
+    },
+    {
+      "editable": false,
+      "path": "src/main/java/com/currencycloud/sdk/model/BankDetails.java"
+    },
+    {
+      "editable": false,
+      "path": "src/main/java/com/currencycloud/sdk/model/BeneficiariesAccountVerificationBody.java"
+    },
+    {
+      "editable": false,
+      "path": "src/main/java/com/currencycloud/sdk/model/BeneficiariesAccountVerificationBodyBeneficiaryEntityTypeEnum.java"
+    },
+    {
+      "editable": false,
+      "path": "src/main/java/com/currencycloud/sdk/model/BeneficiariesAccountVerificationBodyPaymentTypeEnum.java"
+    },
+    {
+      "editable": false,
+      "path": "src/main/java/com/currencycloud/sdk/model/BeneficiariesCreateBody.java"
+    },
+    {
+      "editable": false,
+      "path": "src/main/java/com/currencycloud/sdk/model/BeneficiariesCreateBodyBankAccountTypeEnum.java"
+    },
+    {
+      "editable": false,
+      "path": "src/main/java/com/currencycloud/sdk/model/BeneficiariesCreateBodyBeneficiaryEntityTypeEnum.java"
+    },
+    {
+      "editable": false,
+      "path": "src/main/java/com/currencycloud/sdk/model/BeneficiariesCreateBodyBeneficiaryIdentificationTypeEnum.java"
+    },
+    {
+      "editable": false,
+      "path": "src/main/java/com/currencycloud/sdk/model/BeneficiariesCreateBodyPaymentTypesItemEnum.java"
+    },
+    {
+      "editable": false,
+      "path": "src/main/java/com/currencycloud/sdk/model/BeneficiariesCreateBodyRoutingCodeType1Enum.java"
+    },
+    {
+      "editable": false,
+      "path": "src/main/java/com/currencycloud/sdk/model/BeneficiariesCreateBodyRoutingCodeType2Enum.java"
+    },
+    {
+      "editable": false,
+      "path": "src/main/java/com/currencycloud/sdk/model/BeneficiariesDeleteBody.java"
+    },
+    {
+      "editable": false,
+      "path": "src/main/java/com/currencycloud/sdk/model/BeneficiariesFindBody.java"
+    },
+    {
+      "editable": false,
+      "path": "src/main/java/com/currencycloud/sdk/model/BeneficiariesFindBodyBankAccountTypeEnum.java"
+    },
+    {
+      "editable": false,
+      "path": "src/main/java/com/currencycloud/sdk/model/BeneficiariesFindBodyBeneficiaryEntityTypeEnum.java"
+    },
+    {
+      "editable": false,
+      "path": "src/main/java/com/currencycloud/sdk/model/BeneficiariesFindBodyOrderAscDescEnum.java"
+    },
+    {
+      "editable": false,
+      "path": "src/main/java/com/currencycloud/sdk/model/BeneficiariesFindBodyRoutingCodeType0Enum.java"
+    },
+    {
+      "editable": false,
+      "path": "src/main/java/com/currencycloud/sdk/model/BeneficiariesFindBodyScopeEnum.java"
+    },
+    {
+      "editable": false,
+      "path": "src/main/java/com/currencycloud/sdk/model/BeneficiariesFindResponse.java"
+    },
+    {
+      "editable": false,
+      "path": "src/main/java/com/currencycloud/sdk/model/BeneficiariesUpdateBody.java"
+    },
+    {
+      "editable": false,
+      "path": "src/main/java/com/currencycloud/sdk/model/BeneficiariesUpdateBodyBankAccountTypeEnum.java"
+    },
+    {
+      "editable": false,
+      "path": "src/main/java/com/currencycloud/sdk/model/BeneficiariesUpdateBodyBeneficiaryEntityTypeEnum.java"
+    },
+    {
+      "editable": false,
+      "path": "src/main/java/com/currencycloud/sdk/model/BeneficiariesUpdateBodyBeneficiaryIdentificationTypeEnum.java"
+    },
+    {
+      "editable": false,
+      "path": "src/main/java/com/currencycloud/sdk/model/BeneficiariesUpdateBodyPaymentTypesItemEnum.java"
+    },
+    {
+      "editable": false,
+      "path": "src/main/java/com/currencycloud/sdk/model/BeneficiariesUpdateBodyRoutingCodeType1Enum.java"
+    },
+    {
+      "editable": false,
+      "path": "src/main/java/com/currencycloud/sdk/model/BeneficiariesUpdateBodyRoutingCodeType2Enum.java"
+    },
+    {
+      "editable": false,
+      "path": "src/main/java/com/currencycloud/sdk/model/BeneficiariesValidateBody.java"
+    },
+    {
+      "editable": false,
+      "path": "src/main/java/com/currencycloud/sdk/model/BeneficiariesValidateBodyBankAccountTypeEnum.java"
+    },
+    {
+      "editable": false,
+      "path": "src/main/java/com/currencycloud/sdk/model/BeneficiariesValidateBodyBeneficiaryEntityTypeEnum.java"
+    },
+    {
+      "editable": false,
+      "path": "src/main/java/com/currencycloud/sdk/model/BeneficiariesValidateBodyBeneficiaryIdentificationTypeEnum.java"
+    },
+    {
+      "editable": false,
+      "path": "src/main/java/com/currencycloud/sdk/model/BeneficiariesValidateBodyPaymentTypesItemEnum.java"
+    },
+    {
+      "editable": false,
+      "path": "src/main/java/com/currencycloud/sdk/model/BeneficiariesValidateBodyRoutingCodeType1Enum.java"
+    },
+    {
+      "editable": false,
+      "path": "src/main/java/com/currencycloud/sdk/model/BeneficiariesValidateBodyRoutingCodeType2Enum.java"
+    },
+    {
+      "editable": false,
+      "path": "src/main/java/com/currencycloud/sdk/model/Beneficiary.java"
+    },
+    {
+      "editable": false,
+      "path": "src/main/java/com/currencycloud/sdk/model/BeneficiaryAccountVerificationResult.java"
+    },
+    {
+      "editable": false,
+      "path": "src/main/java/com/currencycloud/sdk/model/BeneficiaryAccountVerificationResultAnswerEnum.java"
+    },
+    {
+      "editable": false,
+      "path": "src/main/java/com/currencycloud/sdk/model/BeneficiaryBankAccountTypeEnum.java"
+    },
+    {
+      "editable": false,
+      "path": "src/main/java/com/currencycloud/sdk/model/BeneficiaryBeneficiaryEntityTypeEnum.java"
+    },
+    {
+      "editable": false,
+      "path": "src/main/java/com/currencycloud/sdk/model/BeneficiaryDefaultBeneficiaryEnum.java"
+    },
+    {
+      "editable": false,
+      "path": "src/main/java/com/currencycloud/sdk/model/BeneficiaryPaymentTypesItemEnum.java"
+    },
+    {
+      "editable": false,
+      "path": "src/main/java/com/currencycloud/sdk/model/BeneficiaryRequirements.java"
+    },
+    {
+      "editable": false,
+      "path": "src/main/java/com/currencycloud/sdk/model/BeneficiaryRequirementsBeneficiaryEntityTypeEnum.java"
+    },
+    {
+      "editable": false,
+      "path": "src/main/java/com/currencycloud/sdk/model/BeneficiaryRequirementsPaymentTypeEnum.java"
+    },
+    {
+      "editable": false,
+      "path": "src/main/java/com/currencycloud/sdk/model/CollectionsScreeningCompleteBody.java"
+    },
+    {
+      "editable": false,
+      "path": "src/main/java/com/currencycloud/sdk/model/CollectionsScreeningCompleteBodyReasonEnum.java"
+    },
+    {
+      "editable": false,
+      "path": "src/main/java/com/currencycloud/sdk/model/CollectionsScreeningCompleteResponse.java"
+    },
+    {
+      "editable": false,
+      "path": "src/main/java/com/currencycloud/sdk/model/CollectionsScreeningCompleteResponseResult.java"
+    },
+    {
+      "editable": false,
+      "path": "src/main/java/com/currencycloud/sdk/model/Contact.java"
+    },
+    {
+      "editable": false,
+      "path": "src/main/java/com/currencycloud/sdk/model/ContactsCreateBody.java"
+    },
+    {
+      "editable": false,
+      "path": "src/main/java/com/currencycloud/sdk/model/ContactsCreateBodyStatusEnum.java"
+    },
+    {
+      "editable": false,
+      "path": "src/main/java/com/currencycloud/sdk/model/ContactsFindBody.java"
+    },
+    {
+      "editable": false,
+      "path": "src/main/java/com/currencycloud/sdk/model/ContactsFindBodyOrderAscDescEnum.java"
+    },
+    {
+      "editable": false,
+      "path": "src/main/java/com/currencycloud/sdk/model/ContactsFindBodyStatusEnum.java"
+    },
+    {
+      "editable": false,
+      "path": "src/main/java/com/currencycloud/sdk/model/ContactsFindResponse.java"
+    },
+    {
+      "editable": false,
+      "path": "src/main/java/com/currencycloud/sdk/model/ContactsUpdateStatusEnum.java"
+    },
+    {
+      "editable": false,
+      "path": "src/main/java/com/currencycloud/sdk/model/Conversion.java"
+    },
+    {
+      "editable": false,
+      "path": "src/main/java/com/currencycloud/sdk/model/ConversionCancellation.java"
+    },
+    {
+      "editable": false,
+      "path": "src/main/java/com/currencycloud/sdk/model/ConversionCancellationQuote.java"
+    },
+    {
+      "editable": false,
+      "path": "src/main/java/com/currencycloud/sdk/model/ConversionDateChange.java"
+    },
+    {
+      "editable": false,
+      "path": "src/main/java/com/currencycloud/sdk/model/ConversionDates.java"
+    },
+    {
+      "editable": false,
+      "path": "src/main/java/com/currencycloud/sdk/model/ConversionDepositStatusEnum.java"
+    },
+    {
+      "editable": false,
+      "path": "src/main/java/com/currencycloud/sdk/model/ConversionFixedSideEnum.java"
+    },
+    {
+      "editable": false,
+      "path": "src/main/java/com/currencycloud/sdk/model/ConversionProfitAndLoss.java"
+    },
+    {
+      "editable": false,
+      "path": "src/main/java/com/currencycloud/sdk/model/ConversionSplit.java"
+    },
+    {
+      "editable": false,
+      "path": "src/main/java/com/currencycloud/sdk/model/ConversionSplitDetails.java"
+    },
+    {
+      "editable": false,
+      "path": "src/main/java/com/currencycloud/sdk/model/ConversionSplitDetailsStatusEnum.java"
+    },
+    {
+      "editable": false,
+      "path": "src/main/java/com/currencycloud/sdk/model/ConversionSplitHistory.java"
+    },
+    {
+      "editable": false,
+      "path": "src/main/java/com/currencycloud/sdk/model/ConversionStatusEnum.java"
+    },
+    {
+      "editable": false,
+      "path": "src/main/java/com/currencycloud/sdk/model/ConversionsCancelBody.java"
+    },
+    {
+      "editable": false,
+      "path": "src/main/java/com/currencycloud/sdk/model/ConversionsCreateBody.java"
+    },
+    {
+      "editable": false,
+      "path": "src/main/java/com/currencycloud/sdk/model/ConversionsCreateBodyConversionDatePreferenceEnum.java"
+    },
+    {
+      "editable": false,
+      "path": "src/main/java/com/currencycloud/sdk/model/ConversionsCreateBodyFixedSideEnum.java"
+    },
+    {
+      "editable": false,
+      "path": "src/main/java/com/currencycloud/sdk/model/ConversionsDateChangeBody.java"
+    },
+    {
+      "editable": false,
+      "path": "src/main/java/com/currencycloud/sdk/model/ConversionsFindOrderAscDescEnum.java"
+    },
+    {
+      "editable": false,
+      "path": "src/main/java/com/currencycloud/sdk/model/ConversionsFindResponse.java"
+    },
+    {
+      "editable": false,
+      "path": "src/main/java/com/currencycloud/sdk/model/ConversionsFindScopeEnum.java"
+    },
+    {
+      "editable": false,
+      "path": "src/main/java/com/currencycloud/sdk/model/ConversionsFindStatusEnum.java"
+    },
+    {
+      "editable": false,
+      "path": "src/main/java/com/currencycloud/sdk/model/ConversionsProfitAndLossOrderAscDescEnum.java"
+    },
+    {
+      "editable": false,
+      "path": "src/main/java/com/currencycloud/sdk/model/ConversionsProfitAndLossResponse.java"
+    },
+    {
+      "editable": false,
+      "path": "src/main/java/com/currencycloud/sdk/model/ConversionsProfitAndLossScopeEnum.java"
+    },
+    {
+      "editable": false,
+      "path": "src/main/java/com/currencycloud/sdk/model/ConversionsSplitBody.java"
+    },
+    {
+      "editable": false,
+      "path": "src/main/java/com/currencycloud/sdk/model/DemoSimulateFundingBody.java"
+    },
+    {
+      "editable": false,
+      "path": "src/main/java/com/currencycloud/sdk/model/DemoSimulateFundingBodyActionEnum.java"
+    },
+    {
+      "editable": false,
+      "path": "src/main/java/com/currencycloud/sdk/model/FundingAccount.java"
+    },
+    {
+      "editable": false,
+      "path": "src/main/java/com/currencycloud/sdk/model/FundingAccountAccountNumberTypeEnum.java"
+    },
+    {
+      "editable": false,
+      "path": "src/main/java/com/currencycloud/sdk/model/FundingAccountPaymentTypeEnum.java"
+    },
+    {
+      "editable": false,
+      "path": "src/main/java/com/currencycloud/sdk/model/FundingAccountRoutingCodeTypeEnum.java"
+    },
+    {
+      "editable": false,
+      "path": "src/main/java/com/currencycloud/sdk/model/FundingFindAccountsOrderAscDescEnum.java"
+    },
+    {
+      "editable": false,
+      "path": "src/main/java/com/currencycloud/sdk/model/FundingFindAccountsPaymentTypeEnum.java"
+    },
+    {
+      "editable": false,
+      "path": "src/main/java/com/currencycloud/sdk/model/FundingFindAccountsResponse.java"
+    },
+    {
+      "editable": false,
+      "path": "src/main/java/com/currencycloud/sdk/model/FundingTransaction.java"
+    },
+    {
+      "editable": false,
+      "path": "src/main/java/com/currencycloud/sdk/model/HmacKey.java"
+    },
+    {
+      "editable": false,
+      "path": "src/main/java/com/currencycloud/sdk/model/Pagination.java"
+    },
+    {
+      "editable": false,
+      "path": "src/main/java/com/currencycloud/sdk/model/PaginationOrderAscDescEnum.java"
+    },
+    {
+      "editable": false,
+      "path": "src/main/java/com/currencycloud/sdk/model/Payer.java"
+    },
+    {
+      "editable": false,
+      "path": "src/main/java/com/currencycloud/sdk/model/PayerLegalEntityTypeEnum.java"
+    },
+    {
+      "editable": false,
+      "path": "src/main/java/com/currencycloud/sdk/model/PayerRequirements.java"
+    },
+    {
+      "editable": false,
+      "path": "src/main/java/com/currencycloud/sdk/model/PayerRequirementsPayerEntityTypeEnum.java"
+    },
+    {
+      "editable": false,
+      "path": "src/main/java/com/currencycloud/sdk/model/PayerRequirementsPaymentTypeEnum.java"
+    },
+    {
+      "editable": false,
+      "path": "src/main/java/com/currencycloud/sdk/model/PayerRequirementsRequiredFieldsItem.java"
+    },
+    {
+      "editable": false,
+      "path": "src/main/java/com/currencycloud/sdk/model/Payment.java"
+    },
+    {
+      "editable": false,
+      "path": "src/main/java/com/currencycloud/sdk/model/PaymentAuthorisation.java"
+    },
+    {
+      "editable": false,
+      "path": "src/main/java/com/currencycloud/sdk/model/PaymentAuthorisations.java"
+    },
+    {
+      "editable": false,
+      "path": "src/main/java/com/currencycloud/sdk/model/PaymentConfirmation.java"
+    },
+    {
+      "editable": false,
+      "path": "src/main/java/com/currencycloud/sdk/model/PaymentDates.java"
+    },
+    {
+      "editable": false,
+      "path": "src/main/java/com/currencycloud/sdk/model/PaymentDeliveryDate.java"
+    },
+    {
+      "editable": false,
+      "path": "src/main/java/com/currencycloud/sdk/model/PaymentFee.java"
+    },
+    {
+      "editable": false,
+      "path": "src/main/java/com/currencycloud/sdk/model/PaymentFeeAssignment.java"
+    },
+    {
+      "editable": false,
+      "path": "src/main/java/com/currencycloud/sdk/model/PaymentFeeRule.java"
+    },
+    {
+      "editable": false,
+      "path": "src/main/java/com/currencycloud/sdk/model/PaymentFeeUnassignment.java"
+    },
+    {
+      "editable": false,
+      "path": "src/main/java/com/currencycloud/sdk/model/PaymentPurposeCodes.java"
+    },
+    {
+      "editable": false,
+      "path": "src/main/java/com/currencycloud/sdk/model/PaymentReviewStatusEnum.java"
+    },
+    {
+      "editable": false,
+      "path": "src/main/java/com/currencycloud/sdk/model/PaymentSubmissionInformation.java"
+    },
+    {
+      "editable": false,
+      "path": "src/main/java/com/currencycloud/sdk/model/PaymentSubmissionInformationStatusEnum.java"
+    },
+    {
+      "editable": false,
+      "path": "src/main/java/com/currencycloud/sdk/model/PaymentTrackingInfo.java"
+    },
+    {
+      "editable": false,
+      "path": "src/main/java/com/currencycloud/sdk/model/PaymentTrackingInfoTransactionStatus.java"
+    },
+    {
+      "editable": false,
+      "path": "src/main/java/com/currencycloud/sdk/model/PaymentsAssignPaymentFeeBody.java"
+    },
+    {
+      "editable": false,
+      "path": "src/main/java/com/currencycloud/sdk/model/PaymentsCreateBody.java"
+    },
+    {
+      "editable": false,
+      "path": "src/main/java/com/currencycloud/sdk/model/PaymentsCreateBodyChargeTypeEnum.java"
+    },
+    {
+      "editable": false,
+      "path": "src/main/java/com/currencycloud/sdk/model/PaymentsCreateBodyPayerEntityTypeEnum.java"
+    },
+    {
+      "editable": false,
+      "path": "src/main/java/com/currencycloud/sdk/model/PaymentsCreateBodyPayerIdentificationTypeEnum.java"
+    },
+    {
+      "editable": false,
+      "path": "src/main/java/com/currencycloud/sdk/model/PaymentsCreateBodyPaymentTypeEnum.java"
+    },
+    {
+      "editable": false,
+      "path": "src/main/java/com/currencycloud/sdk/model/PaymentsDeleteBody.java"
+    },
+    {
+      "editable": false,
+      "path": "src/main/java/com/currencycloud/sdk/model/PaymentsFindChargeTypeEnum.java"
+    },
+    {
+      "editable": false,
+      "path": "src/main/java/com/currencycloud/sdk/model/PaymentsFindOrderAscDescEnum.java"
+    },
+    {
+      "editable": false,
+      "path": "src/main/java/com/currencycloud/sdk/model/PaymentsFindResponse.java"
+    },
+    {
+      "editable": false,
+      "path": "src/main/java/com/currencycloud/sdk/model/PaymentsFindReviewStatusEnum.java"
+    },
+    {
+      "editable": false,
+      "path": "src/main/java/com/currencycloud/sdk/model/PaymentsFindScopeEnum.java"
+    },
+    {
+      "editable": false,
+      "path": "src/main/java/com/currencycloud/sdk/model/PaymentsFindStatusEnum.java"
+    },
+    {
+      "editable": false,
+      "path": "src/main/java/com/currencycloud/sdk/model/PaymentsGetDeliveryDatePaymentTypeEnum.java"
+    },
+    {
+      "editable": false,
+      "path": "src/main/java/com/currencycloud/sdk/model/PaymentsGetPaymentFeesOrderAscDescEnum.java"
+    },
+    {
+      "editable": false,
+      "path": "src/main/java/com/currencycloud/sdk/model/PaymentsGetPaymentFeesResponse.java"
+    },
+    {
+      "editable": false,
+      "path": "src/main/java/com/currencycloud/sdk/model/PaymentsGetReviewStatusEnum.java"
+    },
+    {
+      "editable": false,
+      "path": "src/main/java/com/currencycloud/sdk/model/PaymentsQuotePaymentFeeChargeTypeEnum.java"
+    },
+    {
+      "editable": false,
+      "path": "src/main/java/com/currencycloud/sdk/model/PaymentsQuotePaymentFeePaymentTypeEnum.java"
+    },
+    {
+      "editable": false,
+      "path": "src/main/java/com/currencycloud/sdk/model/PaymentsRetryNotificationsNotificationTypeEnum.java"
+    },
+    {
+      "editable": false,
+      "path": "src/main/java/com/currencycloud/sdk/model/PaymentsUnassignPaymentFeeBody.java"
+    },
+    {
+      "editable": false,
+      "path": "src/main/java/com/currencycloud/sdk/model/PaymentsUpdateBody.java"
+    },
+    {
+      "editable": false,
+      "path": "src/main/java/com/currencycloud/sdk/model/PaymentsUpdateBodyChargeTypeEnum.java"
+    },
+    {
+      "editable": false,
+      "path": "src/main/java/com/currencycloud/sdk/model/PaymentsUpdateBodyPayerEntityTypeEnum.java"
+    },
+    {
+      "editable": false,
+      "path": "src/main/java/com/currencycloud/sdk/model/PaymentsUpdateBodyPayerIdentificationTypeEnum.java"
+    },
+    {
+      "editable": false,
+      "path": "src/main/java/com/currencycloud/sdk/model/PaymentsUpdateBodyPaymentTypeEnum.java"
+    },
+    {
+      "editable": false,
+      "path": "src/main/java/com/currencycloud/sdk/model/PaymentsValidateBody.java"
+    },
+    {
+      "editable": false,
+      "path": "src/main/java/com/currencycloud/sdk/model/PaymentsValidateBodyChargeTypeEnum.java"
+    },
+    {
+      "editable": false,
+      "path": "src/main/java/com/currencycloud/sdk/model/PaymentsValidateBodyPayerEntityTypeEnum.java"
+    },
+    {
+      "editable": false,
+      "path": "src/main/java/com/currencycloud/sdk/model/PaymentsValidateBodyPayerIdentificationTypeEnum.java"
+    },
+    {
+      "editable": false,
+      "path": "src/main/java/com/currencycloud/sdk/model/PaymentsValidateBodyPaymentTypeEnum.java"
+    },
+    {
+      "editable": false,
+      "path": "src/main/java/com/currencycloud/sdk/model/PaymentsValidateResponse.java"
+    },
+    {
+      "editable": false,
+      "path": "src/main/java/com/currencycloud/sdk/model/QuotePaymentFee.java"
+    },
+    {
+      "editable": false,
+      "path": "src/main/java/com/currencycloud/sdk/model/RateDetailed.java"
+    },
+    {
+      "editable": false,
+      "path": "src/main/java/com/currencycloud/sdk/model/RateDetailedFixedSideEnum.java"
+    },
+    {
+      "editable": false,
+      "path": "src/main/java/com/currencycloud/sdk/model/RatesBasic.java"
+    },
+    {
+      "editable": false,
+      "path": "src/main/java/com/currencycloud/sdk/model/RatesFindBankDetailsBody.java"
+    },
+    {
+      "editable": false,
+      "path": "src/main/java/com/currencycloud/sdk/model/RatesFindBankDetailsBodyIdentifierTypeEnum.java"
+    },
+    {
+      "editable": false,
+      "path": "src/main/java/com/currencycloud/sdk/model/RatesGetDetailedConversionDatePreferenceEnum.java"
+    },
+    {
+      "editable": false,
+      "path": "src/main/java/com/currencycloud/sdk/model/RatesGetDetailedFixedSideEnum.java"
+    },
+    {
+      "editable": false,
+      "path": "src/main/java/com/currencycloud/sdk/model/ReferenceGetBeneficiaryRequirementsResponse.java"
+    },
+    {
+      "editable": false,
+      "path": "src/main/java/com/currencycloud/sdk/model/ReferenceGetPayerRequiredDetailsPayerEntityTypeEnum.java"
+    },
+    {
+      "editable": false,
+      "path": "src/main/java/com/currencycloud/sdk/model/ReferenceGetPayerRequiredDetailsPaymentTypeEnum.java"
+    },
+    {
+      "editable": false,
+      "path": "src/main/java/com/currencycloud/sdk/model/ReferenceGetPaymentFeeRulesChargeTypeEnum.java"
+    },
+    {
+      "editable": false,
+      "path": "src/main/java/com/currencycloud/sdk/model/ReferenceGetPaymentFeeRulesPaymentTypeEnum.java"
+    },
+    {
+      "editable": false,
+      "path": "src/main/java/com/currencycloud/sdk/model/ReferenceGetPaymentFeeRulesResponse.java"
+    },
+    {
+      "editable": false,
+      "path": "src/main/java/com/currencycloud/sdk/model/ReferenceGetPaymentPurposeCodesEntityTypeEnum.java"
+    },
+    {
+      "editable": false,
+      "path": "src/main/java/com/currencycloud/sdk/model/ReferenceGetPaymentPurposeCodesResponse.java"
+    },
+    {
+      "editable": false,
+      "path": "src/main/java/com/currencycloud/sdk/model/ReferenceGetSettlementAccountsResponse.java"
+    },
+    {
+      "editable": false,
+      "path": "src/main/java/com/currencycloud/sdk/model/ReportRequest.java"
+    },
+    {
+      "editable": false,
+      "path": "src/main/java/com/currencycloud/sdk/model/ReportRequestReportTypeEnum.java"
+    },
+    {
+      "editable": false,
+      "path": "src/main/java/com/currencycloud/sdk/model/ReportRequestStatusEnum.java"
+    },
+    {
+      "editable": false,
+      "path": "src/main/java/com/currencycloud/sdk/model/ReportsFindReportRequestsOrderAscDescEnum.java"
+    },
+    {
+      "editable": false,
+      "path": "src/main/java/com/currencycloud/sdk/model/ReportsFindReportRequestsReportTypeEnum.java"
+    },
+    {
+      "editable": false,
+      "path": "src/main/java/com/currencycloud/sdk/model/ReportsFindReportRequestsResponse.java"
+    },
+    {
+      "editable": false,
+      "path": "src/main/java/com/currencycloud/sdk/model/ReportsFindReportRequestsScopeEnum.java"
+    },
+    {
+      "editable": false,
+      "path": "src/main/java/com/currencycloud/sdk/model/ReportsFindReportRequestsStatusEnum.java"
+    },
+    {
+      "editable": false,
+      "path": "src/main/java/com/currencycloud/sdk/model/ReportsGenerateConversionReportBody.java"
+    },
+    {
+      "editable": false,
+      "path": "src/main/java/com/currencycloud/sdk/model/ReportsGenerateConversionReportBodyClientStatusEnum.java"
+    },
+    {
+      "editable": false,
+      "path": "src/main/java/com/currencycloud/sdk/model/ReportsGenerateConversionReportBodyScopeEnum.java"
+    },
+    {
+      "editable": false,
+      "path": "src/main/java/com/currencycloud/sdk/model/ReportsGeneratePaymentReportBody.java"
+    },
+    {
+      "editable": false,
+      "path": "src/main/java/com/currencycloud/sdk/model/Sender.java"
+    },
+    {
+      "editable": false,
+      "path": "src/main/java/com/currencycloud/sdk/model/SenderInformation.java"
+    },
+    {
+      "editable": false,
+      "path": "src/main/java/com/currencycloud/sdk/model/SettlementAccount.java"
+    },
+    {
+      "editable": false,
+      "path": "src/main/java/com/currencycloud/sdk/model/SettlementAccountRoutingCodeType1Enum.java"
+    },
+    {
+      "editable": false,
+      "path": "src/main/java/com/currencycloud/sdk/model/SettlementAccountRoutingCodeType2Enum.java"
+    },
+    {
+      "editable": false,
+      "path": "src/main/java/com/currencycloud/sdk/model/SimulateFunding.java"
+    },
+    {
+      "editable": false,
+      "path": "src/main/java/com/currencycloud/sdk/model/SimulateFundingActionEnum.java"
+    },
+    {
+      "editable": false,
+      "path": "src/main/java/com/currencycloud/sdk/model/TermsAndConditionsAcceptBody.java"
+    },
+    {
+      "editable": false,
+      "path": "src/main/java/com/currencycloud/sdk/model/TermsAndConditionsAcceptBodyReferenceTypeEnum.java"
+    },
+    {
+      "editable": false,
+      "path": "src/main/java/com/currencycloud/sdk/model/TermsAndConditionsAcceptBodyTypeEnum.java"
+    },
+    {
+      "editable": false,
+      "path": "src/main/java/com/currencycloud/sdk/model/TermsAndConditionsAcceptBodyVersionEnum.java"
+    },
+    {
+      "editable": false,
+      "path": "src/main/java/com/currencycloud/sdk/model/TopUpMarginBalance.java"
+    },
+    {
+      "editable": false,
+      "path": "src/main/java/com/currencycloud/sdk/model/Transaction.java"
+    },
+    {
+      "editable": false,
+      "path": "src/main/java/com/currencycloud/sdk/model/TransactionActionEnum.java"
+    },
+    {
+      "editable": false,
+      "path": "src/main/java/com/currencycloud/sdk/model/TransactionRelatedEntityTypeEnum.java"
+    },
+    {
+      "editable": false,
+      "path": "src/main/java/com/currencycloud/sdk/model/TransactionStatusEnum.java"
+    },
+    {
+      "editable": false,
+      "path": "src/main/java/com/currencycloud/sdk/model/TransactionTypeEnum.java"
+    },
+    {
+      "editable": false,
+      "path": "src/main/java/com/currencycloud/sdk/model/TransactionsFindActionEnum.java"
+    },
+    {
+      "editable": false,
+      "path": "src/main/java/com/currencycloud/sdk/model/TransactionsFindOrderAscDescEnum.java"
+    },
+    {
+      "editable": false,
+      "path": "src/main/java/com/currencycloud/sdk/model/TransactionsFindRelatedEntityTypeEnum.java"
+    },
+    {
+      "editable": false,
+      "path": "src/main/java/com/currencycloud/sdk/model/TransactionsFindResponse.java"
+    },
+    {
+      "editable": false,
+      "path": "src/main/java/com/currencycloud/sdk/model/TransactionsFindScopeEnum.java"
+    },
+    {
+      "editable": false,
+      "path": "src/main/java/com/currencycloud/sdk/model/TransactionsFindStatusEnum.java"
+    },
+    {
+      "editable": false,
+      "path": "src/main/java/com/currencycloud/sdk/model/TransactionsFindTypeEnum.java"
+    },
+    {
+      "editable": false,
+      "path": "src/main/java/com/currencycloud/sdk/model/Transfer.java"
+    },
+    {
+      "editable": false,
+      "path": "src/main/java/com/currencycloud/sdk/model/TransfersCreateBody.java"
+    },
+    {
+      "editable": false,
+      "path": "src/main/java/com/currencycloud/sdk/model/TransfersFindOrderAscDescEnum.java"
+    },
+    {
+      "editable": false,
+      "path": "src/main/java/com/currencycloud/sdk/model/TransfersFindOrderEnum.java"
+    },
+    {
+      "editable": false,
+      "path": "src/main/java/com/currencycloud/sdk/model/TransfersFindResponse.java"
+    },
+    {
+      "editable": false,
+      "path": "src/main/java/com/currencycloud/sdk/model/TransfersFindStatusEnum.java"
+    },
+    {
+      "editable": false,
+      "path": "src/main/java/com/currencycloud/sdk/model/WithdrawalAccount.java"
+    },
+    {
+      "editable": false,
+      "path": "src/main/java/com/currencycloud/sdk/model/WithdrawalAccountsFindFindResponse.java"
+    },
+    {
+      "editable": false,
+      "path": "src/main/java/com/currencycloud/sdk/model/WithdrawalAccountsFindPullFundsBody.java"
+    },
+    {
+      "editable": false,
+      "path": "src/main/java/com/currencycloud/sdk/model/WithdrawalPullFundsRequestDetails.java"
+    },
+    {
+      "editable": false,
+      "path": "src/main/java/com/currencycloud/sdk/resources/Client.java"
+    },
+    {
+      "editable": true,
+      "path": "src/main/java/com/currencycloud/sdk/resources/README.md"
+    },
+    {
+      "editable": false,
+      "path": "src/main/java/com/currencycloud/sdk/resources/accounts/AccountsClient.java"
+    },
+    {
+      "editable": true,
+      "path": "src/main/java/com/currencycloud/sdk/resources/accounts/README.md"
+    },
+    {
+      "editable": false,
+      "path": "src/main/java/com/currencycloud/sdk/resources/accounts/params/CreateRequest.java"
+    },
+    {
+      "editable": false,
+      "path": "src/main/java/com/currencycloud/sdk/resources/accounts/params/FindRequest.java"
+    },
+    {
+      "editable": false,
+      "path": "src/main/java/com/currencycloud/sdk/resources/accounts/params/GetRequest.java"
+    },
+    {
+      "editable": false,
+      "path": "src/main/java/com/currencycloud/sdk/resources/accounts/params/UpdateRequest.java"
+    },
+    {
+      "editable": false,
+      "path": "src/main/java/com/currencycloud/sdk/resources/accounts/paymentchargessettings/PaymentChargesSettingsClient.java"
+    },
+    {
+      "editable": true,
+      "path": "src/main/java/com/currencycloud/sdk/resources/accounts/paymentchargessettings/README.md"
+    },
+    {
+      "editable": false,
+      "path": "src/main/java/com/currencycloud/sdk/resources/accounts/paymentchargessettings/params/CreateRequest.java"
+    },
+    {
+      "editable": false,
+      "path": "src/main/java/com/currencycloud/sdk/resources/accounts/paymentchargessettings/params/ListRequest.java"
+    },
+    {
+      "editable": false,
+      "path": "src/main/java/com/currencycloud/sdk/resources/auth/AuthClient.java"
+    },
+    {
+      "editable": true,
+      "path": "src/main/java/com/currencycloud/sdk/resources/auth/README.md"
+    },
+    {
+      "editable": false,
+      "path": "src/main/java/com/currencycloud/sdk/resources/auth/params/LoginRequest.java"
+    },
+    {
+      "editable": false,
+      "path": "src/main/java/com/currencycloud/sdk/resources/balances/BalancesClient.java"
+    },
+    {
+      "editable": true,
+      "path": "src/main/java/com/currencycloud/sdk/resources/balances/README.md"
+    },
+    {
+      "editable": false,
+      "path": "src/main/java/com/currencycloud/sdk/resources/balances/params/FindRequest.java"
+    },
+    {
+      "editable": false,
+      "path": "src/main/java/com/currencycloud/sdk/resources/balances/params/GetRequest.java"
+    },
+    {
+      "editable": false,
+      "path": "src/main/java/com/currencycloud/sdk/resources/balances/params/TopUpMarginRequest.java"
+    },
+    {
+      "editable": false,
+      "path": "src/main/java/com/currencycloud/sdk/resources/beneficiaries/BeneficiariesClient.java"
+    },
+    {
+      "editable": true,
+      "path": "src/main/java/com/currencycloud/sdk/resources/beneficiaries/README.md"
+    },
+    {
+      "editable": false,
+      "path": "src/main/java/com/currencycloud/sdk/resources/beneficiaries/params/AccountVerificationRequest.java"
+    },
+    {
+      "editable": false,
+      "path": "src/main/java/com/currencycloud/sdk/resources/beneficiaries/params/CreateRequest.java"
+    },
+    {
+      "editable": false,
+      "path": "src/main/java/com/currencycloud/sdk/resources/beneficiaries/params/DeleteRequest.java"
+    },
+    {
+      "editable": false,
+      "path": "src/main/java/com/currencycloud/sdk/resources/beneficiaries/params/FindRequest.java"
+    },
+    {
+      "editable": false,
+      "path": "src/main/java/com/currencycloud/sdk/resources/beneficiaries/params/GetRequest.java"
+    },
+    {
+      "editable": false,
+      "path": "src/main/java/com/currencycloud/sdk/resources/beneficiaries/params/UpdateRequest.java"
+    },
+    {
+      "editable": false,
+      "path": "src/main/java/com/currencycloud/sdk/resources/beneficiaries/params/ValidateRequest.java"
+    },
+    {
+      "editable": false,
+      "path": "src/main/java/com/currencycloud/sdk/resources/collectionsscreening/CollectionsScreeningClient.java"
+    },
+    {
+      "editable": true,
+      "path": "src/main/java/com/currencycloud/sdk/resources/collectionsscreening/README.md"
+    },
+    {
+      "editable": false,
+      "path": "src/main/java/com/currencycloud/sdk/resources/collectionsscreening/params/CompleteRequest.java"
+    },
+    {
+      "editable": false,
+      "path": "src/main/java/com/currencycloud/sdk/resources/contacts/ContactsClient.java"
+    },
+    {
+      "editable": true,
+      "path": "src/main/java/com/currencycloud/sdk/resources/contacts/README.md"
+    },
+    {
+      "editable": false,
+      "path": "src/main/java/com/currencycloud/sdk/resources/contacts/params/CreateRequest.java"
+    },
+    {
+      "editable": false,
+      "path": "src/main/java/com/currencycloud/sdk/resources/contacts/params/FindRequest.java"
+    },
+    {
+      "editable": false,
+      "path": "src/main/java/com/currencycloud/sdk/resources/contacts/params/GetRequest.java"
+    },
+    {
+      "editable": false,
+      "path": "src/main/java/com/currencycloud/sdk/resources/contacts/params/UpdateRequest.java"
+    },
+    {
+      "editable": false,
+      "path": "src/main/java/com/currencycloud/sdk/resources/conversions/ConversionsClient.java"
+    },
+    {
+      "editable": true,
+      "path": "src/main/java/com/currencycloud/sdk/resources/conversions/README.md"
+    },
+    {
+      "editable": false,
+      "path": "src/main/java/com/currencycloud/sdk/resources/conversions/params/CancelRequest.java"
+    },
+    {
+      "editable": false,
+      "path": "src/main/java/com/currencycloud/sdk/resources/conversions/params/CancellationQuoteRequest.java"
+    },
+    {
+      "editable": false,
+      "path": "src/main/java/com/currencycloud/sdk/resources/conversions/params/CreateRequest.java"
+    },
+    {
+      "editable": false,
+      "path": "src/main/java/com/currencycloud/sdk/resources/conversions/params/DateChangeQuoteRequest.java"
+    },
+    {
+      "editable": false,
+      "path": "src/main/java/com/currencycloud/sdk/resources/conversions/params/DateChangeRequest.java"
+    },
+    {
+      "editable": false,
+      "path": "src/main/java/com/currencycloud/sdk/resources/conversions/params/FindRequest.java"
+    },
+    {
+      "editable": false,
+      "path": "src/main/java/com/currencycloud/sdk/resources/conversions/params/GetRequest.java"
+    },
+    {
+      "editable": false,
+      "path": "src/main/java/com/currencycloud/sdk/resources/conversions/params/ProfitAndLossRequest.java"
+    },
+    {
+      "editable": false,
+      "path": "src/main/java/com/currencycloud/sdk/resources/conversions/params/SplitHistoryRequest.java"
+    },
+    {
+      "editable": false,
+      "path": "src/main/java/com/currencycloud/sdk/resources/conversions/params/SplitPreviewRequest.java"
+    },
+    {
+      "editable": false,
+      "path": "src/main/java/com/currencycloud/sdk/resources/conversions/params/SplitRequest.java"
+    },
+    {
+      "editable": false,
+      "path": "src/main/java/com/currencycloud/sdk/resources/demo/DemoClient.java"
+    },
+    {
+      "editable": true,
+      "path": "src/main/java/com/currencycloud/sdk/resources/demo/README.md"
+    },
+    {
+      "editable": false,
+      "path": "src/main/java/com/currencycloud/sdk/resources/demo/params/SimulateFundingRequest.java"
+    },
+    {
+      "editable": false,
+      "path": "src/main/java/com/currencycloud/sdk/resources/funding/FundingClient.java"
+    },
+    {
+      "editable": true,
+      "path": "src/main/java/com/currencycloud/sdk/resources/funding/README.md"
+    },
+    {
+      "editable": false,
+      "path": "src/main/java/com/currencycloud/sdk/resources/funding/params/FindAccountsRequest.java"
+    },
+    {
+      "editable": false,
+      "path": "src/main/java/com/currencycloud/sdk/resources/funding/params/GetTransactionRequest.java"
+    },
+    {
+      "editable": false,
+      "path": "src/main/java/com/currencycloud/sdk/resources/payers/PayersClient.java"
+    },
+    {
+      "editable": true,
+      "path": "src/main/java/com/currencycloud/sdk/resources/payers/README.md"
+    },
+    {
+      "editable": false,
+      "path": "src/main/java/com/currencycloud/sdk/resources/payers/params/GetRequest.java"
+    },
+    {
+      "editable": false,
+      "path": "src/main/java/com/currencycloud/sdk/resources/payments/PaymentsClient.java"
+    },
+    {
+      "editable": true,
+      "path": "src/main/java/com/currencycloud/sdk/resources/payments/README.md"
+    },
+    {
+      "editable": false,
+      "path": "src/main/java/com/currencycloud/sdk/resources/payments/params/AssignPaymentFeeRequest.java"
+    },
+    {
+      "editable": false,
+      "path": "src/main/java/com/currencycloud/sdk/resources/payments/params/AuthoriseRequest.java"
+    },
+    {
+      "editable": false,
+      "path": "src/main/java/com/currencycloud/sdk/resources/payments/params/ConfirmationRequest.java"
+    },
+    {
+      "editable": false,
+      "path": "src/main/java/com/currencycloud/sdk/resources/payments/params/CreateRequest.java"
+    },
+    {
+      "editable": false,
+      "path": "src/main/java/com/currencycloud/sdk/resources/payments/params/DeleteRequest.java"
+    },
+    {
+      "editable": false,
+      "path": "src/main/java/com/currencycloud/sdk/resources/payments/params/FindRequest.java"
+    },
+    {
+      "editable": false,
+      "path": "src/main/java/com/currencycloud/sdk/resources/payments/params/GetDeliveryDateRequest.java"
+    },
+    {
+      "editable": false,
+      "path": "src/main/java/com/currencycloud/sdk/resources/payments/params/GetPaymentFeesRequest.java"
+    },
+    {
+      "editable": false,
+      "path": "src/main/java/com/currencycloud/sdk/resources/payments/params/GetRequest.java"
+    },
+    {
+      "editable": false,
+      "path": "src/main/java/com/currencycloud/sdk/resources/payments/params/GetSubmissionInfoRequest.java"
+    },
+    {
+      "editable": false,
+      "path": "src/main/java/com/currencycloud/sdk/resources/payments/params/GetTrackingInfoRequest.java"
+    },
+    {
+      "editable": false,
+      "path": "src/main/java/com/currencycloud/sdk/resources/payments/params/QuotePaymentFeeRequest.java"
+    },
+    {
+      "editable": false,
+      "path": "src/main/java/com/currencycloud/sdk/resources/payments/params/RetryNotificationsRequest.java"
+    },
+    {
+      "editable": false,
+      "path": "src/main/java/com/currencycloud/sdk/resources/payments/params/UnassignPaymentFeeRequest.java"
+    },
+    {
+      "editable": false,
+      "path": "src/main/java/com/currencycloud/sdk/resources/payments/params/UpdateRequest.java"
+    },
+    {
+      "editable": false,
+      "path": "src/main/java/com/currencycloud/sdk/resources/payments/params/ValidateRequest.java"
+    },
+    {
+      "editable": true,
+      "path": "src/main/java/com/currencycloud/sdk/resources/rates/README.md"
+    },
+    {
+      "editable": false,
+      "path": "src/main/java/com/currencycloud/sdk/resources/rates/RatesClient.java"
+    },
+    {
+      "editable": false,
+      "path": "src/main/java/com/currencycloud/sdk/resources/rates/params/FindBankDetailsRequest.java"
+    },
+    {
+      "editable": false,
+      "path": "src/main/java/com/currencycloud/sdk/resources/rates/params/FindRequest.java"
+    },
+    {
+      "editable": false,
+      "path": "src/main/java/com/currencycloud/sdk/resources/rates/params/GetDetailedRequest.java"
+    },
+    {
+      "editable": true,
+      "path": "src/main/java/com/currencycloud/sdk/resources/reference/README.md"
+    },
+    {
+      "editable": false,
+      "path": "src/main/java/com/currencycloud/sdk/resources/reference/ReferenceClient.java"
+    },
+    {
+      "editable": false,
+      "path": "src/main/java/com/currencycloud/sdk/resources/reference/params/GetBeneficiaryRequirementsRequest.java"
+    },
+    {
+      "editable": false,
+      "path": "src/main/java/com/currencycloud/sdk/resources/reference/params/GetConversionDatesRequest.java"
+    },
+    {
+      "editable": false,
+      "path": "src/main/java/com/currencycloud/sdk/resources/reference/params/GetPayerRequiredDetailsRequest.java"
+    },
+    {
+      "editable": false,
+      "path": "src/main/java/com/currencycloud/sdk/resources/reference/params/GetPaymentDatesRequest.java"
+    },
+    {
+      "editable": false,
+      "path": "src/main/java/com/currencycloud/sdk/resources/reference/params/GetPaymentFeeRulesRequest.java"
+    },
+    {
+      "editable": false,
+      "path": "src/main/java/com/currencycloud/sdk/resources/reference/params/GetPaymentPurposeCodesRequest.java"
+    },
+    {
+      "editable": false,
+      "path": "src/main/java/com/currencycloud/sdk/resources/reference/params/GetSettlementAccountsRequest.java"
+    },
+    {
+      "editable": true,
+      "path": "src/main/java/com/currencycloud/sdk/resources/reports/README.md"
+    },
+    {
+      "editable": false,
+      "path": "src/main/java/com/currencycloud/sdk/resources/reports/ReportsClient.java"
+    },
+    {
+      "editable": false,
+      "path": "src/main/java/com/currencycloud/sdk/resources/reports/params/FindReportRequestsRequest.java"
+    },
+    {
+      "editable": false,
+      "path": "src/main/java/com/currencycloud/sdk/resources/reports/params/GenerateConversionReportRequest.java"
+    },
+    {
+      "editable": false,
+      "path": "src/main/java/com/currencycloud/sdk/resources/reports/params/GeneratePaymentReportRequest.java"
+    },
+    {
+      "editable": false,
+      "path": "src/main/java/com/currencycloud/sdk/resources/reports/params/GetReportRequestsRequest.java"
+    },
+    {
+      "editable": true,
+      "path": "src/main/java/com/currencycloud/sdk/resources/termsandconditions/README.md"
+    },
+    {
+      "editable": false,
+      "path": "src/main/java/com/currencycloud/sdk/resources/termsandconditions/TermsAndConditionsClient.java"
+    },
+    {
+      "editable": false,
+      "path": "src/main/java/com/currencycloud/sdk/resources/termsandconditions/params/AcceptRequest.java"
+    },
+    {
+      "editable": true,
+      "path": "src/main/java/com/currencycloud/sdk/resources/transactions/README.md"
+    },
+    {
+      "editable": false,
+      "path": "src/main/java/com/currencycloud/sdk/resources/transactions/TransactionsClient.java"
+    },
+    {
+      "editable": false,
+      "path": "src/main/java/com/currencycloud/sdk/resources/transactions/params/FindRequest.java"
+    },
+    {
+      "editable": false,
+      "path": "src/main/java/com/currencycloud/sdk/resources/transactions/params/GetRequest.java"
+    },
+    {
+      "editable": false,
+      "path": "src/main/java/com/currencycloud/sdk/resources/transactions/params/GetSenderDetailsRequest.java"
+    },
+    {
+      "editable": true,
+      "path": "src/main/java/com/currencycloud/sdk/resources/transfers/README.md"
+    },
+    {
+      "editable": false,
+      "path": "src/main/java/com/currencycloud/sdk/resources/transfers/TransfersClient.java"
+    },
+    {
+      "editable": false,
+      "path": "src/main/java/com/currencycloud/sdk/resources/transfers/params/CancelRequest.java"
+    },
+    {
+      "editable": false,
+      "path": "src/main/java/com/currencycloud/sdk/resources/transfers/params/CreateRequest.java"
+    },
+    {
+      "editable": false,
+      "path": "src/main/java/com/currencycloud/sdk/resources/transfers/params/FindRequest.java"
+    },
+    {
+      "editable": false,
+      "path": "src/main/java/com/currencycloud/sdk/resources/transfers/params/GetRequest.java"
+    },
+    {
+      "editable": true,
+      "path": "src/main/java/com/currencycloud/sdk/resources/withdrawalaccounts/README.md"
+    },
+    {
+      "editable": false,
+      "path": "src/main/java/com/currencycloud/sdk/resources/withdrawalaccounts/WithdrawalAccountsClient.java"
+    },
+    {
+      "editable": false,
+      "path": "src/main/java/com/currencycloud/sdk/resources/withdrawalaccounts/find/FindClient.java"
+    },
+    {
+      "editable": true,
+      "path": "src/main/java/com/currencycloud/sdk/resources/withdrawalaccounts/find/README.md"
+    },
+    {
+      "editable": false,
+      "path": "src/main/java/com/currencycloud/sdk/resources/withdrawalaccounts/find/params/FindRequest.java"
+    },
+    {
+      "editable": false,
+      "path": "src/main/java/com/currencycloud/sdk/resources/withdrawalaccounts/find/params/PullFundsRequest.java"
+    },
+    {
+      "editable": false,
+      "path": "src/test/java/com/currencycloud/sdk/AccountsPaymentChargesSettingsTestClient.java"
+    },
+    {
+      "editable": false,
+      "path": "src/test/java/com/currencycloud/sdk/AccountsTestClient.java"
+    },
+    {
+      "editable": false,
+      "path": "src/test/java/com/currencycloud/sdk/AuthTestClient.java"
+    },
+    {
+      "editable": false,
+      "path": "src/test/java/com/currencycloud/sdk/BalancesTestClient.java"
+    },
+    {
+      "editable": false,
+      "path": "src/test/java/com/currencycloud/sdk/BeneficiariesTestClient.java"
+    },
+    {
+      "editable": false,
+      "path": "src/test/java/com/currencycloud/sdk/CollectionsScreeningTestClient.java"
+    },
+    {
+      "editable": false,
+      "path": "src/test/java/com/currencycloud/sdk/ContactsTestClient.java"
+    },
+    {
+      "editable": false,
+      "path": "src/test/java/com/currencycloud/sdk/ConversionsTestClient.java"
+    },
+    {
+      "editable": false,
+      "path": "src/test/java/com/currencycloud/sdk/DemoTestClient.java"
+    },
+    {
+      "editable": false,
+      "path": "src/test/java/com/currencycloud/sdk/FundingTestClient.java"
+    },
+    {
+      "editable": false,
+      "path": "src/test/java/com/currencycloud/sdk/PayersTestClient.java"
+    },
+    {
+      "editable": false,
+      "path": "src/test/java/com/currencycloud/sdk/PaymentsTestClient.java"
+    },
+    {
+      "editable": false,
+      "path": "src/test/java/com/currencycloud/sdk/RatesTestClient.java"
+    },
+    {
+      "editable": false,
+      "path": "src/test/java/com/currencycloud/sdk/ReferenceTestClient.java"
+    },
+    {
+      "editable": false,
+      "path": "src/test/java/com/currencycloud/sdk/ReportsTestClient.java"
+    },
+    {
+      "editable": false,
+      "path": "src/test/java/com/currencycloud/sdk/TermsAndConditionsTestClient.java"
+    },
+    {
+      "editable": false,
+      "path": "src/test/java/com/currencycloud/sdk/TransactionsTestClient.java"
+    },
+    {
+      "editable": false,
+      "path": "src/test/java/com/currencycloud/sdk/TransfersTestClient.java"
+    },
+    {
+      "editable": false,
+      "path": "src/test/java/com/currencycloud/sdk/WithdrawalAccountsFindTestClient.java"
+    }
+  ]
+}
